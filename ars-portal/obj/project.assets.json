@@ -193,24 +193,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\radhakrishna\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Qburst\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\radhakrishna\\source\\repos\\ars-portal\\ars-portal\\ars-portal.csproj",
+      "projectUniqueName": "C:\\Users\\Qburst\\source\\repos\\ars-portal\\ars-portal\\ars-portal.csproj",
       "projectName": "ars-portal",
-      "projectPath": "C:\\Users\\radhakrishna\\source\\repos\\ars-portal\\ars-portal\\ars-portal.csproj",
-      "packagesPath": "C:\\Users\\radhakrishna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\radhakrishna\\source\\repos\\ars-portal\\ars-portal\\obj\\",
+      "projectPath": "C:\\Users\\Qburst\\source\\repos\\ars-portal\\ars-portal\\ars-portal.csproj",
+      "packagesPath": "C:\\Users\\Qburst\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Qburst\\source\\repos\\ars-portal\\ars-portal\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\radhakrishna\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Qburst\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -218,9 +213,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\radhakrishna\\source\\repos\\new\\NextGenCRM-BackEnd\\West.NextGenCRM.Common.Nugets\\West.NextGenCRM.Models\\bin\\Debug": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/westpharmaceutical/811c06c2-bce7-4e11-9319-40f020209714/_packaging/WEST.NextGenCRM.NugetFeed/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
@@ -261,7 +254,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
