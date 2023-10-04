@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Qburst\\source\\repos\\ars-portal\\ars-portal\\ars-portal.csproj": {}
+    "C:\\Users\\Qburst\\Source\\Repos\\ars-portal\\ars-portal\\ars-portal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Qburst\\source\\repos\\ars-portal\\ars-portal\\ars-portal.csproj": {
+    "C:\\Users\\Qburst\\Source\\Repos\\ars-portal\\ars-portal\\ars-portal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Qburst\\source\\repos\\ars-portal\\ars-portal\\ars-portal.csproj",
+        "projectUniqueName": "C:\\Users\\Qburst\\Source\\Repos\\ars-portal\\ars-portal\\ars-portal.csproj",
         "projectName": "ars-portal",
-        "projectPath": "C:\\Users\\Qburst\\source\\repos\\ars-portal\\ars-portal\\ars-portal.csproj",
+        "projectPath": "C:\\Users\\Qburst\\Source\\Repos\\ars-portal\\ars-portal\\ars-portal.csproj",
         "packagesPath": "C:\\Users\\Qburst\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Qburst\\source\\repos\\ars-portal\\ars-portal\\obj\\",
+        "outputPath": "C:\\Users\\Qburst\\Source\\Repos\\ars-portal\\ars-portal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Qburst\\AppData\\Roaming\\NuGet\\NuGet.Config",

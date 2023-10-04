@@ -1,10 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using ars_portal.Models.Models.Base;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ars_portal.Models.Models
 {
-    public class Skill
+    public class Skill: BaseModel
     {
-        public int id { get; set; }
         public string skillName { get; set; }
         public int experienceInYears { get; set; }
         public string proficiency { get; set; }

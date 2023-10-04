@@ -1,8 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using ars_portal.Models.Models.Base;
+using System.Collections.Generic;
 
 namespace ars_portal.Models.Models
 {
-    public class EmployeesDetailedData
+    public class EmployeesDetailedData: BaseModel
     {
         public EmployeesDetailedData()
         {
@@ -10,7 +11,6 @@ namespace ars_portal.Models.Models
             skills = new HashSet<Skill>();
 
         }
-        public int id { get; set; }
         public string fullName { get; set; }
         public string email { get; set; }
         public string phone { get; set; }

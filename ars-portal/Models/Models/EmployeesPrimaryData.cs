@@ -1,10 +1,10 @@
-﻿using System;
+﻿using ars_portal.Models.Models.Base;
+using System;
 
 namespace ars_portal.Models.Models
 {
-    public class EmployeesPrimaryData
+    public class EmployeesPrimaryData: BaseModel
     {
-        public int Id { get; set; }
         public string Name { get; set; }
         public string Gender { get; set; }
         public string Email { get; set; }
@@ -12,7 +12,6 @@ namespace ars_portal.Models.Models
         public string ContactPreference { get; set; }
         public DateTimeOffset DateOfBirth { get; set; }
         public string Department { get; set; }
-        public bool IsActive { get; set; }
         public string PhotoPath { get; set; }
 
     }

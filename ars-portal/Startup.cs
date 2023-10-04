@@ -22,6 +22,8 @@ using System.ComponentModel.DataAnnotations;
 using System.Reflection;
 using Microsoft.OData.Edm.Vocabularies;
 using ars_portal.Models.Models;
+using ars_portal.Repository;
+using ars_portal.Routing;
 
 namespace ars_portal
 {
@@ -51,7 +53,10 @@ namespace ars_portal
                 options.UseSqlServer(dbConn);
 
             }, ServiceLifetime.Transient);
-            services.AddMvc(options => options.EnableEndpointRouting = false);
+            services.AddMvc(options => options.EnableEndpointRouting = false)
+                .ConfigureApplicationPartManager(m => m.FeatureProviders.Add(new GenericTypeControllerFeatureProvider()));
+            services.AddTransient(typeof(IRepository<>), typeof(Repository<>));
+            services.AddScoped<DbContext, DbContextEmployees>();
             services.AddOData();
            
         }
